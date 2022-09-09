@@ -63,16 +63,20 @@ function showSlides(n) {
 const card = document.querySelector("#card-hiring");
 card.onmouseover = function () {
   let img = document.querySelector(".img-hover");
+  let center = document.querySelector(".round");
   let left = document.querySelector(".left");
   let lefttitle = document.querySelector(".left-title");
+  center.style.display = "none";
   left.style.color = "#8B8B8B";
   img.classList.add("active");
   lefttitle.style.color = "#ffffff";
 };
 card.onmouseout = function () {
   let img = document.querySelector(".img-hover");
+  let center = document.querySelector(".round");
   let left = document.querySelector(".left");
   let lefttitle = document.querySelector(".left-title");
+  center.style.display = "block";
   img.classList.remove("active");
   left.style.color = "#606060";
   lefttitle.style.color = "#232340";
