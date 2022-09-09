@@ -134,11 +134,11 @@
             display: flex;
         }
     
-        .navbar-mobile .nav-footer .social-media img:nth-child(2){
+        .navbar-mobile .nav-footer .social-media a:nth-child(2){
             padding-left: 32px;
         }
 
-        .navbar-mobile .nav-footer .social-media img:nth-child(3){
+        .navbar-mobile .nav-footer .social-media a:nth-child(3){
             padding-left: 32px;
         }
 

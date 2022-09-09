@@ -1,6 +1,15 @@
 let tabs = document.querySelectorAll(".toggle");
 let contents = document.querySelectorAll(".tab-content-img");
 let articles = document.querySelectorAll(".tab-content-article-container");
+let slideright = document.querySelector(".slide-right");
+let slideleft = document.querySelectorAll(".slide-left");
+
+slideright.onclick = function () {
+  document.getElementById("select").selectedIndex++;
+};
+slideleft.onclick = function () {
+  document.getElementById("select").selectedIndex--;
+};
 
 tabs.forEach((tab, index) => {
   tab.addEventListener("click", () => {
